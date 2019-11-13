@@ -1,0 +1,10 @@
+Must Have:
+- We have code navigation to other internal packages in VS Code / IntelliJ
+- We can run tests in watch mode
+- We can see the results of incremental changes quickly
+- We can have ordered dependencies between internal packages
+
+Not Sure if Required:
+- We can use webpack to build deployable artifacts
+- We can use Jest for running tests.
+
