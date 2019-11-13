@@ -5,7 +5,7 @@ load("@npm_bazel_typescript//:defs.bzl", "ts_devserver", "ts_library")
 ts_library(
     name = "app",
     srcs = ["test.ts"],
-    deps = ["//lexer", "//parser", "//interpreter"],
+    deps = ["//packages/lexer", "//packages/parser", "//packages/interpreter"],
 )
 
 load("@build_bazel_rules_nodejs//:defs.bzl", "rollup_bundle")

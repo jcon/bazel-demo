@@ -3,6 +3,7 @@
   "license": "MIT",
   "devDependencies": {
     "@bazel/bazel": "^0.25.1",
+    "@bazel/ibazel": "^0.10.3",
     "@bazel/typescript": "0.29.0",
     "typescript": "^3.1.6"
   }
