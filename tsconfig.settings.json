@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "CommonJS",
+      "lib": [
+        "es6",
+        "dom"
+      ],
+      "strict": false,
+      "types": [
+        "jest"
+      ],
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "composite": true
+    },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }
