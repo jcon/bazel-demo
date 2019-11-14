@@ -16,7 +16,8 @@
       "allowSyntheticDefaultImports": true,
       "forceConsistentCasingInFileNames": true,
       "moduleResolution": "node",
-      "composite": true
+      "composite": true,
+      "declarationMap": true
     },
     "exclude": [
       "node_modules",
