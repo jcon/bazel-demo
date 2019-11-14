@@ -3,7 +3,7 @@ import {Parser} from '@lang/parser';
 import {Interpreter} from '@lang/interpreter';
 
 const program = `
-foo = 43;
+foo = 43 - 1;
 print foo;
 `;
 const lexer = new Lexer(program);
