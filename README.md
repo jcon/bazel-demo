@@ -1,6 +1,7 @@
-# Bazel TypeScript Demo
+# TypeScript Project References Demo
 
-This repository contains the code from my blog post "[Building TypeScript with Bazel](https://blog.mgechev.com/2018/11/19/introduction-bazel-typescript-tutorial/)".
+This repository showcases a TS monorepo uses yarn workspaces + TypeScript project
+references to efficiently build only what's needed.
 
 ## Usage
 
@@ -13,13 +14,12 @@ yarn
 To build the project:
 
 ```bash
-./node_modules/.bin/bazel build :bundle
+yarn build:cli
 ```
 
 Execute the produced bundle:
-
 ```bash
-node bazel-bin/bundle.js
+node ./packages/cli/dist/test.js
 ```
 
 ## License
