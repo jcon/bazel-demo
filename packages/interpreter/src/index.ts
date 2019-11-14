@@ -4,6 +4,8 @@
  */
 import {AST, BinOp, Num, If, While, Assignment, UnaryOp, Print, Identifier} from '@lang/parser';
 
+const f = (x) => x;
+
 export class Interpreter {
   private symbolTable: {[key: string]: Identifier} = {};
   constructor(private ast: AST[]) {}
