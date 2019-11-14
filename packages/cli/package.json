@@ -9,5 +9,9 @@
     "@lang/lexer": "^0.0.0",
     "@lang/parser": "^0.0.0",
     "@lang/interpreter": "^0.0.0"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "build:watch": "tsc --build --watch"
   }
 }
