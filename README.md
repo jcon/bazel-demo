@@ -1,7 +1,7 @@
 # TypeScript Project References Demo
 
 This repository showcases a TS monorepo uses yarn workspaces + TypeScript project
-references to efficiently build only what's needed.
+references to efficiently build only what's needed. This was based off of a Bazel monorepo demo (https://github.com/mgechev/bazel-demo).
 
 ## Usage
 
