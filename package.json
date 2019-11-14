@@ -1,14 +1,10 @@
 {
-  "name": "bazel-demo",
+  "name": "tsc-project-references-demo",
+  "private": true,
+  "workspaces": ["packages/*"],
   "license": "MIT",
   "devDependencies": {
-    "@bazel/bazel": "^0.25.1",
-    "@bazel/ibazel": "^0.10.3",
-    "@bazel/typescript": "0.29.0",
-    "typescript": "^3.1.6"
-  },
-  "scripts": {
-    "build": "bazel build :bundle",
-    "watch": "ibazel build :app"
+    "@types/jest": "^24.0.11",
+    "typescript": "^3.7.2"
   }
 }

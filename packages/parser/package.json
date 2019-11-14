@@ -1,0 +1,16 @@
+{
+  "name": "@lang/parser",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "./dist/src/index.js",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@lang/lexer": "^0.0.0"
+  },
+  "scripts": {
+    "build": "bazel build :bundle",
+    "watch": "ibazel build :app"
+  }
+}
